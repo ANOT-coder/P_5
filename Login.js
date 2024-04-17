@@ -23,7 +23,7 @@
         var name = document.getElementById("name").value;
         var password = document.getElementById("password").value;
 
-        // Validate password
+        // To validate password
         if (!validatePassword(password)) {
             alert("Password must be at least 8 characters long.");
             return false; // if criteria doesot meet prevents form submission
