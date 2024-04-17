@@ -8,7 +8,7 @@
 <body>
 
 <script>
-    // Define a function to validate the password
+    //  function to validate the password
     function validatePassword(password) {
         // Password should be at least 6 characters long
         if (password.length < 8) {
